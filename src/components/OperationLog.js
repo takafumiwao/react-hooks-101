@@ -6,6 +6,6 @@ const OperationLog = ({operationLog}) => {
           <td>{operationLog.description}</td>
           <td>{operationLog.operatedAt}</td>
         </tr>
-    )
+    );
 }
 export default OperationLog
